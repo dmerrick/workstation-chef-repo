@@ -1,6 +1,6 @@
 {
   "groups": [
-    "USERNAME",
+    "dmerrick",
     "wheel",
     "sysadmin",
     "dialout",
@@ -12,9 +12,9 @@
     "sambashare",
     "sbuild"
   ],
-  "comment": "FULL NAME",
+  "comment": "Dana Merrick",
   "ssh_keys": "SSH public key(s)",
-  "id": "USERNAME",
+  "id": "dmerrick",
   "uid": 1000,
   "shell": "/bin/zsh",
   "repos": {
@@ -32,11 +32,11 @@
       "revision": "HEAD"
     },
     ".emacs.d": {
-      "repo": "git@github.com:USERNAME/.emacs.d.git",
+      "repo": "git@github.com:dmerrick/.emacs.d.git",
       "revision": "HEAD"
     },
     "Development/opscode/chef": {
-      "repo": "git@github.com:USERNAME/chef.git", // your fork of Chef
+      "repo": "git@github.com:dmerrick/chef.git", // your fork of Chef
       "revision": "HEAD"
     }
   },
