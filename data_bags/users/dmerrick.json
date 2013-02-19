@@ -16,7 +16,7 @@
   "ssh_keys": "SSH public key(s)",
   "id": "dmerrick",
   "uid": 1000,
-  "shell": "/bin/zsh",
+  "shell": "/bin/bash",
   "repos": {
     /*
       Repositories that should be checked out. They have the following
@@ -31,12 +31,12 @@
       "repo": "git://github.com/sstephenson/rbenv.git",
       "revision": "HEAD"
     },
-    ".emacs.d": {
-      "repo": "git@github.com:dmerrick/.emacs.d.git",
+    "configs": {
+      "repo": "git@github.com:dmerrick/configs.git",
       "revision": "HEAD"
     },
-    "Development/opscode/chef": {
-      "repo": "git@github.com:dmerrick/chef.git", // your fork of Chef
+    "other_projects/git-prompt": {
+      "repo": "git@github.com:dmerrick/git-prompt.git",
       "revision": "HEAD"
     }
   },
@@ -50,7 +50,6 @@
         "mode": "0644",
         "source": "dot_file"
       }
-     */
     // Examples:
     ".zshrc": {
       "mode": "0644",
@@ -60,5 +59,6 @@
       "mode": "0644",
       "source": "dot-gemrc"
     }
+    */
   }
 }
